@@ -1,0 +1,105 @@
+@font-face {
+  font-family: "GR", sans-serif;
+  src: url("../assets/fonts/Gilroy-Regular.eot");
+  src: url("../assets/fonts/Gilroy-Regular.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/Gilroy-Regular.woff2") format("woff2"), url("../assets/fonts/Gilroy-Regular.woff") format("woff"), url("../assets/fonts/Gilroy-Regular.ttf") format("truetype");
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "GS", sans-serif;
+  src: url("../assets/fonts/Gilroy-SemiBold.eot");
+  src: url("../assets/fonts/Gilroy-SemiBold.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/Gilroy-SemiBold.woff2") format("woff2"), url("../assets/fonts/Gilroy-SemiBold.woff") format("woff"), url("../assets/fonts/Gilroy-SemiBold.ttf") format("truetype");
+  font-style: normal;
+  font-display: swap;
+}
+.header__input, .header-banner__text {
+  font-family: "GS", sans-serif;
+  font-size: 1rem;
+  line-height: 1.4;
+}
+
+body {
+  font-family: "GR", sans-serif;
+  font-size: 16px;
+  margin: 0;
+  min-width: 320px;
+  color: #192040;
+}
+
+.container {
+  max-width: 1430px;
+}
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+
+a,
+a:hover {
+  color: #192040;
+  text-decoration: none;
+}
+
+.header-background {
+  background: linear-gradient(80deg, #ffb862 0%, #ff9a3d 20.13%, #d3e5cf 65.66%, #697466 100%);
+}
+.header-banner {
+  padding: 0.44rem 0;
+  max-width: 950px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  background-image: url("../assets/images/pic/books.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center right;
+}
+.header-banner__text {
+  color: #ffffff;
+}
+.header-banner__link {
+  font-family: "GS", sans-serif;
+  font-size: 0.875rem;
+  color: #ffffff;
+  display: inline-block;
+  border: 1px solid #ffffff;
+  border-radius: 50px;
+  padding: 0.5rem 1.25rem;
+  margin-left: 3.125rem;
+}
+.header-logo {
+  display: inline-block;
+  margin: 1.875rem 0;
+}
+.header__wrapper {
+  padding: 1.25rem 0;
+  display: flex;
+  flex-direction: column;
+}
+.header__input {
+  max-width: 582px;
+  width: 100%;
+  border: 1px solid #ededf2;
+  border-radius: 50px;
+  padding: 0.94rem 1.25rem 0.94rem 3.5rem;
+  color: #828299;
+}
+.header__label {
+  position: relative;
+  width: 100%;
+}
+.header__label::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 1.875rem;
+  bottom: 0;
+  margin-top: -8px;
+  width: 16px;
+  height: 16px;
+  background-image: url("../assets/images/icon/search.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
